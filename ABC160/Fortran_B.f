@@ -1,5 +1,6 @@
 program MAIN
   implicit none
+  
   integer :: money
   read (*,*) money
   print *, hisHappiness(money)
